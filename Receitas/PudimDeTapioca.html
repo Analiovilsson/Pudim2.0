@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pudim de Chia</title>
+</head>
+<style>
+    div {
+        display: flex;
+    }
+    #head {
+        background-image: linear-gradient(
+            to top,
+            rgb(100, 220, 255),
+            rgb(80, 160, 201)
+        );
+        flex-direction: row;
+        justify-content: left;
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: black;
+    }
+    .panel {
+        flex-direction: column;
+        background-color: rgb(120, 240, 255);
+        width: 15%;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+    .body {
+        background-color: rgb( 240, 255, 255);
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: black;
+    }
+    .picture
+    {
+        margin: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        padding: 5px;
+        background-color: rgb(224, 240, 255);
+        flex-direction: column;
+    }
+    .text1
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .text2
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .text3
+    {
+        font-size: larger;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pictureText
+    {
+        margin: 0px;
+    }
+    p
+    {
+        line-break: normal;
+    }
+    li
+    {
+        margin-top: 10px;
+    }
+</style>
+<body style="margin: 0px;">
+    <div id="head">
+        <div class="picture">
+            <a href="../Pudim/pudim.com.html"><img src="../Pudim/pudim.jpg" width="128" height="96"></a>
+            <br>
+            <h3 class="pictureText" style="align-self: center;">pudim.com 2.0</h3>
+        </div>
+        <div style="flex: auto; flex-direction: column; justify-content: center;">
+            <h2 style="align-self: center;">Menu de Navegação</h2>
+            <div style="flex: auto; flex-direction: row; justify-content: center;">
+                <a style="align-self: flex-end;" href="../index.html"><button style="height: 50px; width: 150px;">Página inicial</button></a>
+                <a style="align-self: flex-end;" href="http://pudim.com.br"><button style="height: 50px; width: 150px;">pudim.com.br</button></a>
+                <a style="align-self: flex-end;" href="../contato.html"><button style="height: 50px; width: 150px;">Contato</button></a>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100%;">
+        <div class="panel">
+            <p class="text1">Você poderá conhecer as seguintes receitas:</p>
+            <ul>
+                <a href="ChicoBalanceado.html"><li>Chico Balanceado</li></a>
+                <a href="PudimDeChia.html"><li>Pudim de Chia com Morango, Tâmara e Manga</li></a>
+                <a href="PudimDeTapioca.html"><li>Pudim de Tapioca com Calda de Açaí</li></a>
+                <a href="PudimSorvete.html"><li>Pudim de Sorvete de Chocolate e Morango</li></a>
+                <a href="PudimSemGraca.html"><li>Pudim Normal</li></a>
+                <a href="PudimDePanetone.html"><li>Pudim de Panetone</li></a>
+            </ul>
+        </div>
+        <div class="body">
+            <h1>Pudim da Tapioca com Calda de Açaí</h1>
+            <div class="picture">
+                <img src="../Pudim/pudim.jpg" width="640" height="480">
+                <br>
+                <p class="pictureText">Senhoras e senhores: o pudim</p>
+                <p class="pictureText">YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHA</p>
+            </div>
+            <div style="justify-content: left; flex-direction: column; margin: 20px">
+                <h2>Ingredientes:</h2>
+                <ul>
+                    <li class="text3">200 gramas de tapoca flocada</li>
+                    <li class="text3">200 gramas de tapoca granulada</li>
+                    <li class="text3">3 xícaras de chá de leite de coco</li>
+                    <li class="text3">1 xícara de chá de açúcar refinado</li>
+                    <li class="text3">Calda de Açaí:
+                        <ul>
+                            <li>800 granas de polpa de açaí</li>
+                            <li>1 1/4 xícaras de chá de açúcar refinado</li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+                <h2>Modo de preparo:</h2>
+                <p class="text3">
+                    Misture as tapiocas e hidrate com 1 2/3 xícaras de leite de coco, deixando descansar por uma hora.
+                    Acrescente o restante do leite de coco e leve ao fogo brando por aproximadamente duas horas, sem parar de mexer.
+                    Quando todo o leite de coco for absorvido e a tapioca estiver macia, tire do fogo e coloque nas formas de pudim.
+                    Leve a geladeira por pelo menos três horas.
+                </p>
+                <h3 style="margin-left: 20px; margin-right: 20px;">Calda de açaí:</h3>
+                <p class="text3">
+                    Coloque os ingredientes em uma panela e cozinhe em fogo baixo. Deixe reduzir até consistência de calda.
+                    Resfrie e sirva com o pudim.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
