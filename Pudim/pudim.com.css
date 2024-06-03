@@ -1,5 +1,4 @@
-div.container
-{
+.container {
     width: 650px;
     background-color: #FFF;
     position: relative;
@@ -9,4 +8,25 @@ div.container
     bottom: 0px;
     left: 50%;
     margin-left: -395px;
+}
+.container .email {
+    margin-top: 5px;
+}
+.container .email a {
+    font-family: verdana, arial;
+    font-size: 11px;
+    padding-top: 10px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+body {
+    background-color: #d0d0d0;
+    margin: 0px;
+    padding: 0px;
 }
