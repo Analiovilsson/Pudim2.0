@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chico Balanceado</title>
+</head>
+<style>
+    div {
+        display: flex;
+    }
+    #head {
+        background-image: linear-gradient(
+            to top,
+            rgb(100, 220, 255),
+            rgb(80, 160, 201)
+        );
+        flex-direction: row;
+        justify-content: left;
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: black;
+    }
+    .panel {
+        flex-direction: column;
+        background-color: rgb(120, 240, 255);
+        width: 15%;
+        border-right-width: 1px;
+        border-right-style: solid;
+        border-color: black;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+    .body {
+        background-color: rgb( 240, 255, 255);
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: black;
+    }
+    .picture
+    {
+        margin: 5px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        padding: 5px;
+        background-color: rgb(224, 240, 255);
+        flex-direction: column;
+    }
+    .text1
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .text2
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .text3
+    {
+        font-size: larger;
+        margin-left: 10%;
+    }
+    .pictureText
+    {
+        margin: 0px;
+    }
+    p
+    {
+        line-break: normal;
+    }
+    li
+    {
+        margin-top: 10px;
+    }
+    .content
+    {
+        justify-content: left;
+        flex-direction: column;
+        margin: 20px;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+</style>
+<body style="margin: 0px;">
+    <div id="head">
+        <div class="picture">
+            <a href="../Pudim/pudim.com.html"><img src="../Pudim/pudim.jpg" width="128" height="96"></a>
+            <br>
+            <h3 class="pictureText" style="align-self: center;">pudim.com 2.0</h3>
+        </div>
+        <div style="flex: auto; flex-direction: column; justify-content: center;">
+            <h2 style="align-self: center;">Menu de Navegação</h2>
+            <div style="flex: auto; flex-direction: row; justify-content: center;">
+                <a style="align-self: flex-end;" href="../index.html"><button style="height: 50px; width: 150px;">Página inicial</button></a>
+                <a style="align-self: flex-end;" href="http://pudim.com.br"><button style="height: 50px; width: 150px;">pudim.com.br</button></a>
+                <a style="align-self: flex-end;" href="../contato.html"><button style="height: 50px; width: 150px;">Contato</button></a>
+            </div>
+        </div>
+    </div>
+    <div style="height: 100%;">
+        <div class="panel">
+            <p class="text1">Você poderá conhecer as seguintes receitas:</p>
+            <ul>
+                <a href="ChicoBalanceado.html"><li class="text2">Chico Balanceado</li></a>
+                <a href="PudimDeChia.html"><li class="text2">Pudim de Chia com Morango, Tâmara e Manga</li></a>
+                <a href="PudimDeTapioca.html"><li class="text2">Pudim de Tapioca com Calda de Açaí</li></a>
+                <a href="PudimSorvete.html"><li class="text2">Pudim de Sorvete de Chocolate e Morango</li></a>
+                <a href="PudimSemGraca.html"><li class="text2">Pudim Normal</li></a>
+                <a href="PudimDePanetone.html"><li class="text2">Pudim de Panetone</li></a>
+            </ul>
+        </div>
+        <div class="body">
+            <h1>Pudim Sorvete de Chocolate e Morango</h1>
+            <div class="picture">
+                <img src="Imagens/ChicoBalanceado.jpg">
+                <br>
+                <p class="pictureText">Essa sobremesa é deliciosa e combina a doçura das bananas caramelizadas com a cremosidade do creme e a leveza do merengue.</p>
+                <p class="pictureText">Aproveite.</p>
+            </div>
+            <div class="content">
+                <h2>Ingredientes:</h2>
+                <ul>
+                    <li class="text3">Para o doce de Banana:
+                        <ul>
+                            <li>8 bananas maduras</li>
+                            <li>1 xícara de chá de açúcar</li>
+                        </ul>
+                    </li>
+                    <li class="text3">Para o creme:
+                        <ul>
+                            <li>1 litro de leite</li>
+                            <li>1 lata de leite condensado</li>
+                            <li>3 gemas</li>
+                            <li>2 colheres de sopa de amido de milho</li>
+                            <li>1 colher de chá de essência de baunilha</li>
+                        </ul>
+                    </li>
+                    <li class="text3">Para o merengue:
+                        <ul>
+                            <li>3 claras</li>
+                            <li>6 colheres de sopa de açúcar</li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+                <h2>Modo de preparo:</h2>
+                <ul>
+                    <li class="text3">
+                        Doce de Banana:
+                        <ol>
+                            <li>Descasque e corte as bananas em rodelas.</li>
+                            <li>Em uma panela, coloque o açúcar e leve ao fogo médio, mexendo sempre até derreter e caramelizar.</li>
+                            <li>Adicione as bananas cortadas e cozinhe até ficarem macias e incorporadas ao caramelo.</li>
+                            <li>Distribua o doce de banana no fundo de uma bacia de vidro e reserve.</li>
+                        </ol>
+                    </li>
+                    <li class="text3">
+                        Creme:
+                        <ol>
+                           <li>Em uma panela, misture o leite, o leite condensado, as gemas e o amido de milho.</li> 
+                           <li>Leve ao fogo médio, mexendo sempre até engrossar e obter um creme liso.</li>
+                           <li>Adicione a essência de baunilha e misture bem.</li>
+                           <li>Despeje o creme sobre o doce de banana na bacia de vidro</li>
+                        </ol>
+                    </li>
+                    <li class="text3">
+                        Merengue:
+                        <ol>
+                            <li>Bata as claras em neve até ficarem firmes.</li>
+                            <li>Adicione o açúcar aos poucos, batendo continuamente, até obter um merengue brilhante e consistente.</li>
+                            <li>Espalhe o merengue sobre o creme na bacia, formando picos com a ajuda de uma colher.</li>
+                        </ol>
+                    </li>
+                    <li class="text3">
+                        Finalização:
+                        <ol>
+                            <li>Leve a bacia ao forno preaquecido a 180°C por cerca de 10 minutos, ou até o merengue dourar levemente.</li>
+                            <li>Retire do forno e deixe esfriar.</li>
+                            <li>Sirva gelado</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
